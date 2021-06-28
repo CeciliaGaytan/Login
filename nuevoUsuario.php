@@ -34,7 +34,7 @@
         <input type="text" placeholder="Correo" name="email">
               <input type="password" placeholder="Contraseña" name="password">
               <input type="password" placeholder="Confirma contraseña" name="repass">
-              <input type="submit"  value="Ingresa" name="ingresar" class="ingresar"/>
+              <input type="submit"  value="Registrar" name="ingresar" class="ingresar"/>
 
 
         <a href="forgetPassword.html" class="password">Olvidaste la contraseña?</a>

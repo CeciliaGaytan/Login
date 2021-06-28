@@ -30,7 +30,7 @@ body {
   background-color: white;
   padding: 20px;
   margin-left: 40px;
-  height: 350px;
+  height: 400px;
   width: 500px;
   margin-top: 80px;
 }
@@ -38,11 +38,17 @@ body {
 .inicio{
   
   font-size:15px;
-  margin-left: 18px;
+  margin-left: -300px;
   color:#0000ff;
+  margin-top:100px;
 
 }
-
+.password{
+  font-size:15px;
+  margin-left: -200px;
+  color: #0000ff;
+  margin-bottom:60px;
+ }
 .h1{
     font-size: 60px;
     font-style: italic;
@@ -135,13 +141,33 @@ img {
     font-weight: 600;
     color: #fff;
     background-color: #008080;
-    margin-top: 10px;
+    margin-top: 40px;
 }
-.password{
-  font-size:15px;
-  margin-left: 0px;
-  color: #0000ff
-}
+ .Ok{
+        
+    background-color: #52f540;
+    text-align: center;
+    width:100%;
+    padding:12px;
+    color: #fff;
+     border-radius: 1rem;
+     margin-top:-110px;
+      width: 95%;
+
+    }
+    .error{
+             
+    background-color: #fa072c;
+    text-align: center;
+    width:100%;
+    padding:12px;
+    color: #fff;
+     border-radius: 1rem;
+     margin-top:-110px;
+     width: 95%;
+
+    }
+
 .registro{
   
   font-size:15px;
@@ -166,21 +192,4 @@ img {
     color: #7c7c7c;
   }
   
-    .Ok{
-        
-    background-color: #1e6;
-    text-align: center;
-    width:100%;
-    padding:12px;
-    color: #fff;
-
-    }
-    .error{
-             
-    background-color: #1e6;
-    text-align: center;
-    width:100%;
-    padding:12px;
-    color: #fff;
-
-    }
+  
