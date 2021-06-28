@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  /* la imagen a ser mostrada a pantalla completa */
+  background: url("img/download.jpg") no-repeat center center;
+
+  /* nos aseguramos que el elemento ocupe toda la ventana del navegador */
+  min-height: 100%;
+
+  /* Propiedad a utilizar para la imagen */
+  background-size: cover;
+}
+
+#color1 {
+    border: 15px;
+  background-color: rgb(28, 136, 136);
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 150px;
+
+/* Con Borde
+  padding: 3px 10px;
+  border: white 5px solid;
+  border-radius: 20px;*/
+  
+}
+
+#color2 {
+  background-color: white;
+  padding: 20px;
+  margin-left: 40px;
+  height: 250px;
+  width: 500px;
+  margin-top: 80px;
+}
+
+
+
+
+.h1{
+    font-size: 60px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 450px;
+    padding: 20px;
+}
+  
+
+.text{
+    margin-left: 500px;
+    margin-top: -30px;
+    flex-direction: column-reverse;
+    background-position: center;
+}
+
+.icon {
+    float: right;
+    padding: 10px;
+  }
+  .icon div{
+    height: 450px;
+    width: 250px; 
+    background-color: red;
+    background: url("img/pp.png") no-repeat center center;
+    margin-top: -90px;
+    margin-right: 5px;
+
+  }
+.register, .login{
+    flex: 1;
+  }
+   
+  .register{
+    padding: 40px;
+    position: relative;
+    margin-top: -35px;
+    height: 200px;
+    margin-bottom:30px;
+  }
+   
+  .register h2{
+    color: #797979;
+    margin-bottom: 30px;
+  }
+   
+  .register input{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid #a8a8a8;
+    color: #333;
+  }
+   
+  .register input:active,
+  .register input:focus{
+    outline: none;
+  }
+   
+  .register .submit{
+    width: auto;
+    padding: 10px;
+    background: #008080;
+    color: #fff;
+    font-size: 12px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+  }
+
+ 
+   
+  .ingresar
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+    background-color: #008080;
+    margin-top: 30px;
+}
+.ingresar{
+color:white;
+}
+.password{
+  font-size:15px;
+  margin-left: 0px;
+}
+.inicio{
+  
+  font-size:15px;
+  margin-left: 18px;
+  color:#0000ff;
+}
+
+
+  .register::after{
+    
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    right: -23px;
+    padding: 10px;
+    text-align: center;
+    font-size: 19px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, .2);
+    color: #7c7c7c;
+  }
+  .Ok{
+    background-color: #1e6;
+    text-align: center;
+    width:100%;
+    padding:12px;
+    color: #fff;
+    }
