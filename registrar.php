@@ -3,10 +3,11 @@
 include("con_db.php");
 
    if(isset($_POST['ingresar'])) {
-        if (strlen($_POST['name']) >= 1 && strlen($_POST['password']) >= 1) {
+        if (strlen($_POST['name']) >= 1 && strlen($_POST['password']) >= 1   && strlen($_POST['email']) >= 1) {
             $name = trim($_POST['name']);
+            $email = trim($_POST['email']);
             $password = trim($_POST['password']);
-            $consulta = "INSERT INTO datos(nombre, email, password) VALUES ('$nombre','$email','$password')";
+            $consulta = "INSERT INTO datos(nombre, email,  password) VALUES ('$name','$email','$password')";
             $resultado = mysqli_query($conex,$consulta);
             if ($resultado) {
                 ?>

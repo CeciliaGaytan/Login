@@ -24,7 +24,7 @@
         <div id="color2">
             
   
-          <h1>Iniciar Sesion</h1>
+          <h1>Registrate</h1>
          
           <div class="register">
            
@@ -36,9 +36,6 @@
               <input type="password" placeholder="Confirma contraseña" name="repass">
               <input type="submit"  value="Registrar" name="ingresar" class="ingresar"/>
 
-
-        <a href="forgetPassword.html" class="password">Olvidaste la contraseña?</a>
-        <a href="index.php" class="inicio">Ir Atras</a>
        
             </form>
 
